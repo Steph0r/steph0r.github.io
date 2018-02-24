@@ -1,0 +1,56 @@
+body{
+	margin: auto;
+	max-width:650px;
+	line-height:1.6;
+	padding:0 10px;
+	font-size:18px;
+	font-family: "Trebuchet MS", "Fira Sans";
+	text-align: justify;
+}
+h1,h2,h3{
+	line-height:1.2;
+}
+img{
+	float:right;
+	margin: 0 0 0 10px;
+}
+ul{
+	list-style-type: cirlce;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+a.sec{
+	text-decoration: none;
+}
+nav{
+	max-width:650px;
+	display: flex;
+  justify-content: space-between;
+	background-color: #333;
+}
+nav a{
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #333;
+    display: block;
+    color: white;
+		font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+		float: left;
+}
+nav a:hover {
+    background-color: #111;
+		text-decoration: none;
+}
+.thesisTitle{
+	font-style: italic;
+}
+.impressum{
+	font-size: 14px;
+}
